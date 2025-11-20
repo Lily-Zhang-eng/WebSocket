@@ -13,6 +13,6 @@ import java.util.Map;
 public class AuthController {
     @GetMapping("/test")
     public ResponseEntity<?> test(){
-        return ResponseEntity.ok(Map.of("status", "成功！"));
+        return ResponseEntity.ok(Map.of("Status", "成功！"));
     }
 }
